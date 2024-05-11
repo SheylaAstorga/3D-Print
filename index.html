@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link active"  href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pages/Error404.html">Productos</a>
@@ -77,12 +77,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </section>
-        <section class="containerProducto d-lg-flex flex-lg-row flex-sm-column  d-md-flex flex-md-row m-5 ">
-            <article>
+        <section class="containerProducto d-lg-flex flex-lg-row flex-sm-column  d-md-flex flex-md-row m-5 " id="Seccion1">
+            <article >
                 <h3>Formá parte de un nuevo consumo sustentable</h3>
                 <br>
-                <p>En 3DPrint proponemos una nueva forma ecologica de consumir filamentos
-                    3D sin dañar el planeta</p>
+                <p>En 3DPrint proponemos una nueva forma ecológica de consumir filamentos 3D sin dañar el planeta. Con
+                    nuestra amplia gama de filamentos eco-friendly en una variedad de colores vibrantes, puedes
+                    disfrutar de la impresión en 3D mientras contribuyes a la preservación del medio ambiente.</p>
                 <br>
                 <b>Gana el planeta, ganás vos, ganamos todos</b>
             </article>
@@ -91,7 +92,7 @@
             </div>
         </section>
         <section class=" bg-light container-fluid py-4">
-            <div class="container">
+            <div class="container" id="Seccion2">
                 <h2 class="text-center mb-4">
                     3 Lineas de colores,creatividad infinita
                 </h2>
@@ -155,7 +156,7 @@
             </div>
 
         </section>
-        <section class="container my-4">
+        <section class="container my-4" id="Seccion3">
             <h2 class="text-center mb-4">Todos nuestros filamentos</h2>
             <article class="row">
                 <div class="col-12 col-md-6 col-lg-3 mb-3">
@@ -179,7 +180,8 @@
                         </div>
                         <img src="img/Amarillo-800x800.jpg" class="card-img-top" alt="Filamennto amarillo">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoAmarillo"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -192,7 +194,8 @@
                         </div>
                         <img src="img/Azul-800x800.jpg" class="card-img-top" alt="Filamennto Azul">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoAzul"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -206,7 +209,8 @@
                         <img src="img/Esmeralda-Translucido-800x800.jpg" class="card-img-top"
                             alt="Filamennto esmeralda">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoEsmeralda"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -219,7 +223,8 @@
                         </div>
                         <img src="img/Gris-800x800.jpg" class="card-img-top" alt="Filamennto Gris">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoGris"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -232,7 +237,8 @@
                         </div>
                         <img src="img/Celeste-800x800.jpg" class="card-img-top" alt="Filamennto Celeste">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoCeleste"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -245,7 +251,8 @@
                         </div>
                         <img src="img/Rosa-Pastel-800x800.jpg" class="card-img-top" alt="Filamennto rosa">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoRosa"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -258,7 +265,8 @@
                         </div>
                         <img src="img/Arena-Pastel-800x800.jpg" class="card-img-top" alt="Filamennto arena">
                         <div class="card-body text-center">
-                            <button class="btn btn-outline-dark"> <i class="bi bi-eye">
+                            <button class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#ModalFilamentoArena"> <i class="bi bi-eye">
                                 </i>Ver más
                             </button>
                         </div>
@@ -272,9 +280,9 @@
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#Seccion1">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#Seccion2">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#Seccion3">3</a></li>
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
@@ -284,7 +292,7 @@
             </nav>
         </section>
     </main>
-    <!-- Modal -->
+
     <div class="modal fade" id="ModalFilamentoVioleta" tabindex="-1" aria-labelledby="ModalFilamentoVioletaLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -295,9 +303,152 @@
                 </div>
                 <div class="modal-body">
                     <img src="img/Violeta-800x800.jpg" alt="Filamento Violeta" class="img-fluid">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In debitis beatae aspernatur earum qui
-                        deserunt ipsa vel ea hic, fugit iusto! Eveniet debitis quisquam velit voluptas illum, veniam est
-                        eaque!</p>
+                    <p>Al imprimir con filamentos ecológicos en tono violeta, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color violeta transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ModalFilamentoAmarillo" tabindex="-1" aria-labelledby="ModalFilamentoAmarilloLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoAmarilloLabel">Filamento Amarillo</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Amarillo-800x800.jpg" alt="Filamento Amarillo" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono amarillo, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color amarillo transmite un sentido de creatividad, espiritualidad
+                        y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoAzul" tabindex="-1" aria-labelledby="ModalFilamentoAzulLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoAzulLabel">Filamento Azul</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Azul-800x800.jpg" alt="Filamento Azul" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono azul, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color azul transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoEsmeralda" tabindex="-1" aria-labelledby="ModalFilamentoEsmeraldaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoEsmeraldaLabel">Filamento Esmeralda</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Esmeralda-Translucido-800x800.jpg" alt="Filamento Esmeralda" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono esmeralda, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color esmeralda transmite un sentido de creatividad, espiritualidad
+                        y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoGris" tabindex="-1" aria-labelledby="ModalFilamentoGrisLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoGrisLabel">Filamento Gris</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Gris-800x800.jpg" alt="Filamento Gris" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono gris, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color gris transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoCeleste" tabindex="-1" aria-labelledby="ModalFilamentoCelesteLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoCelesteLabel">Filamento Celeste</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Celeste-800x800.jpg" alt="Filamento Celeste" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono celeste, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color celeste transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoRosa" tabindex="-1" aria-labelledby="ModalFilamentoRosaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoRosaLabel">Filamento Rosa</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Rosa-800x800.jpg" alt="Filamento Rosa" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono rosa, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color rosa transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFilamentoArena" tabindex="-1" aria-labelledby="ModalFilamentoArenaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="ModalFilamentoArenaLabel">Filamento Arena</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Arena-Pastel-800x800.jpg" alt="Filamento Arena" class="img-fluid">
+                    <p>Al imprimir con filamentos ecológicos en tono arena, no solo estás contribuyendo a reducir la
+                        huella de carbono de tus creaciones, sino que también estás añadiendo un toque de elegancia y
+                        distinción a tus diseños. El color arena transmite un sentido de creatividad, espiritualidad y
+                        sofisticación, lo que lo convierte en una elección popular para una amplia gama de aplicaciones.
+                    </p>
                 </div>
             </div>
         </div>
